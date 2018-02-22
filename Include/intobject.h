@@ -24,6 +24,11 @@ typedef struct {
     PyObject_HEAD
     long ob_ival;
 } PyIntObject;
+/*PyObject is the cornelstone
+ * data in ob_ival
+ * -------------------------------------2108.2.22-----------------------------------
+ */
+ 
 
 PyAPI_DATA(PyTypeObject) PyInt_Type;
 

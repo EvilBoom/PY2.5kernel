@@ -103,6 +103,11 @@ whose size is determined when the object is allocated.
 typedef struct _object {
 	PyObject_HEAD
 } PyObject;
+/*This struct is VIP
+ * the secret head in 'PyObject_HEAD'
+ * jump to PyObject_HEAD line 66
+ * -----------------------------------------------------2018.2.22---------------------------------------------------------
+ */
 
 typedef struct {
 	PyObject_VAR_HEAD
