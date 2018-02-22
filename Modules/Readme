@@ -1,0 +1,1 @@
+modules：该目录中包含了所有用C语言编写的模块，比如random，cStringIO等。modules中的模块是那些对速度要求非常严格的模块，而一些对速度没有太严格要求的模块比如os，就是用Python编写的，并且放在lib下面。
